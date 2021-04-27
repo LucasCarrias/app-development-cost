@@ -1,3 +1,4 @@
+import Badge from "../../ui/Badge";
 import styles from "./styles.module.scss";
 
 export default function Header() {
@@ -15,7 +16,7 @@ export default function Header() {
             <a href="">About</a>
           </li>
           <li>
-            <a href="">Contact Us</a>
+            <Badge><a href="">Contact Us</a></Badge>
           </li>
         </ul>
       </nav>

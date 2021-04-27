@@ -1,17 +1,19 @@
 .header {
   display: flex;
-  padding: 1rem 0;
-
+  padding: 0;
+  margin: 1rem;
+  
   font-size: 1.25rem;
 
   nav {
     margin-left: auto;
+    
     ul {
       display: flex;
       list-style-type: none;
 
       li + li {
-          margin-left: 1rem;
+          margin-left: 2rem;
       }
     }
   }
