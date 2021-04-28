@@ -4,8 +4,8 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div>
-        <span>Lucas Carrias</span>
-        <span>2011</span>
+        <span><strong>Lucas Carrias</strong><span>, 2021</span></span>
+        
       </div>
     </footer>
   );
